@@ -24,17 +24,29 @@ Welcome to **[Project Name]**! This is a Next.js application powered by **Supaba
 ## Screenshots
 
 Here’s a glimpse of the application:
+
 1 OVERVIEW :
+
 <img width="1470" alt="Screenshot 2024-12-18 at 10 37 04 PM" src="https://github.com/user-attachments/assets/47eae0be-a5ca-41d0-a926-5dedbcd420fb" />
+
 SEARCH:
+
 <img width="1470" alt="Screenshot 2024-12-18 at 10 36 28 PM" src="https://github.com/user-attachments/assets/7bedcbfd-e825-4894-b5c6-0891ff99f2d5" />
+
 3 CREATE STUDENT:
+
 <img width="1470" alt="Screenshot 2024-12-18 at 10 36 35 PM" src="https://github.com/user-attachments/assets/93273ab2-0c1a-4e6f-8899-26a6030880ac" />
+
 4 DELETE :
+
 <img width="1470" alt="Screenshot 2024-12-18 at 10 36 41 PM" src="https://github.com/user-attachments/assets/6ac5fe3b-e8a8-4663-a1eb-21b3a0172d9b" />
+
 5 UPDATE:
+
 <img width="1470" alt="Screenshot 2024-12-18 at 10 36 45 PM" src="https://github.com/user-attachments/assets/583b2343-11bf-44f8-b98d-cfe75ee99153" />
+
 FINAL PRODUCT:
+
 <img width="1470" alt="Screenshot 2024-12-18 at 10 37 04 PM" src="https://github.com/user-attachments/assets/cb65eba0-b50d-4968-9890-c3e55665a92c" />
 
 
