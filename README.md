@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Project Name
+Welcome to [Project Name]! This is a Next.js application powered by Supabase, Prisma ORM, Shadcn, and Tailwind CSS for a clean, responsive UI and database management.
 
-## Getting Started
+Features
+Authentication: Handled by Supabase for seamless login and sign-up.
+Database Management: Prisma ORM for type-safe database queries.
+UI Components: Shadcn for accessible UI components, styled with Tailwind CSS.
+Technologies Used
+Next.js
+Supabase
+Prisma ORM
+Shadcn
+Tailwind CSS
+Project Structure
+Frontend: Built with Next.js and styled using Tailwind CSS.
+Database: Managed by Supabase and Prisma for easy data handling.
+Screenshots
+Here’s a glimpse of the application:
 
-First, run the development server:
 
-```bash
+
+Setup
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/project-name.git
+cd project-name
+Install dependencies:
+
+bash
+Copy code
+npm install
+Set up environment variables for Supabase and Prisma.
+
+Run the app:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+License
+This project is licensed under the MIT License.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
