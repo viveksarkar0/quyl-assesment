@@ -1,0 +1,33 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Student {
+  id         String   @id @default(uuid()) // Unique identifier
+  name       String   // Student's name
+  cohort     String   // Cohort information
+  courses    Course[] // Relationship to courses
+  dateJoined DateTime // Date the student joined
+  lastLogin  DateTime // Last login time
+  status     Status   // Enum for 'active' or 'inactive'
+}
+
+model Course {
+  id         String   @id @default(uuid()) // Unique identifier
+  name       String   // Course name (e.g., 'science', 'math')
+  class      String   // Class associated with the course (e.g., 'Math 101')
+  studentId  String   // Foreign key to Student
+ student    Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)  // Relationship to Student
+}
+
+enum Status {
+  active
+  inactive
+}
+
+
