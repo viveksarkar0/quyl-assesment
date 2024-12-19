@@ -53,8 +53,8 @@ FINAL PRODUCT:
 ## Setup
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/project-name.git
+   ```bashhttps://github.com/viveksarkar0/quyl-assesment.git
+   git clone 
    cd project-namInstall dependencies:
 
 bash
