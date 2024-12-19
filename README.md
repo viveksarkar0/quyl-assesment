@@ -15,7 +15,7 @@ Welcome to **[Project Name]**! This is a Next.js application powered by **Supaba
 - **Prisma ORM**
 - **Shadcn**
 - **Tailwind CSS**
-
+- **zustand*
 ## Project Structure
 
 - **Frontend**: Built with Next.js and styled using Tailwind CSS.
